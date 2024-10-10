@@ -12,6 +12,7 @@ public class Main {
         System.out.println("Jumlah Cicilan  : " + jumlahCicilan);
 
         System.out.println("---------------------------------------------");
+
         // Menghitung total yang haris dibayar
         double TotalBayar = hutang + (hutang * bunga / 100);
         System.out.println("Total Bayar     : " + TotalBayar);
@@ -53,7 +54,7 @@ public class Main {
             int jmlJumlahBayar = 14 - strJumlahBayar.length();
             int jmlSisaPinjaman = 15 - strSisaPinjaman.length();
 
-            // Menentukan jumlah spasi yang dibutuhkan\
+            // Menentukan jumlah spasi yang dibutuhkan
             // Sesuai dengan panjang karakternya
             for (int j = 0; j < jmlAngsuranKe; j++) {
                 strAngsuranKe = (" " + strAngsuranKe);

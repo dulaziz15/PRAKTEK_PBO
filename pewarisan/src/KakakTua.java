@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
+public class KakakTua extends Burung{
+    public KakakTua(String nama) {
+        super(nama, 2);
+    }
 
-public class KakakTua {
 }
